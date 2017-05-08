@@ -74,3 +74,14 @@ http://127.0.0.1:5000/repo
 ```
 
 Voilà! You should see something like picture below, but with current information 🙂
+
+
+
+
+
+
+
+
+
+
+
