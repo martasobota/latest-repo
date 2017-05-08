@@ -76,3 +76,14 @@ http://127.0.0.1:5000/repo
 Voilà! You should see something like picture below, but with current information 🙂
 
 ![PrintScreen](https://cloud.githubusercontent.com/assets/22544944/25808798/6955172a-340b-11e7-883f-0fd1442f5240.png)
+
+## Built With
+
+[Flask](http://flask.pocoo.org/docs/0.12/) - Web framework
+[Flask-Bootstrap](https://pythonhosted.org/Flask-Bootstrap/) - Not too much content, but wanted to see the difference and play a little 😉
+[GitHub API v3](https://developer.github.com/v3/) - Official GitHub API v3
+[PyGitHub](http://pygithub.readthedocs.io/en/latest/) - Library to use GitHub API v3
+
+## Author
+
+* **Marta Żaryn** - *Initial work* - [martazaryn](https://github.com/martazaryn)
