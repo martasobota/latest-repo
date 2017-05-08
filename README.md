@@ -21,7 +21,7 @@ Enter to your virtual env and type in terminal (note the dot):
 . bin/activate
 ```
 
-Cd outside the env, where is requirements.txt and install them:
+Cd outside the env and into latest_repo folder, where is requirements.txt and install it:
 
 ```
 pip3 install -r requirements.txt
@@ -43,22 +43,35 @@ then:
 export client_secret=type_your_client_secret_here
 ```
 
-To check if variables exported properly, enter python and type:
+Now open python and type:
+```
+>>> import os
+>>> client_id=os.environ[„client_id”]
+>>> client_secret=os.environ[„client_secret”]
+```
+
+
+SOME_SECRET_KEY = os.environ["SOME_SECRET_KEY"]
+
+
+To check if variables exported properly, enter python in terminal and type:
 
 ```
 >>> import os
->>> os.environ[‘client_id’]
+>>> print(client_id)
 here will appear your client_id
->>> os.environ[‘client_secret’]
+>>> print(client_secret)
 here will appear your client_secret
 ```
+Exit() python
+
 
 ### Run 
 
 When in virtualenv, cd into local-repo folder and type in terminal:
 
 ```
-python3 latest-repo.py
+python3 latest_repo.py
 ```
 
 You will see the information:
@@ -82,8 +95,8 @@ Voilà! You should see something like picture below, but with current informatio
 * [Flask](http://flask.pocoo.org/docs/0.12/) - Web framework
 * [Flask-Bootstrap](https://pythonhosted.org/Flask-Bootstrap/) - Not too much content, but wanted to see the difference and play a little 😉
 * [GitHub API v3](https://developer.github.com/v3/) - Official GitHub API v3
-* [PyGitHub](http://pygithub.readthedocs.io/en/latest/) - Python library to use GitHub API v3
+* [PyGitHub](http://pygithub.readthedocs.io/en/latest/) - Library to use GitHub API v3
 
 ## Author
 
-* **Marta Żaryn** - *Initial work* - [GitHub](https://github.com/martazaryn), [Twitter](https://twitter.com/martazaryn)
+* **Marta Żaryn** - *Initial work* - [GitHub](https://github.com/martazaryn) [Twitter](https://twitter.com/martazaryn)
