@@ -79,11 +79,11 @@ Voilà! You should see something like picture below, but with current informatio
 
 ## Built With
 
-[Flask](http://flask.pocoo.org/docs/0.12/) - Web framework
-[Flask-Bootstrap](https://pythonhosted.org/Flask-Bootstrap/) - Not too much content, but wanted to see the difference and play a little 😉
-[GitHub API v3](https://developer.github.com/v3/) - Official GitHub API v3
-[PyGitHub](http://pygithub.readthedocs.io/en/latest/) - Library to use GitHub API v3
+* [Flask](http://flask.pocoo.org/docs/0.12/) - Web framework
+* [Flask-Bootstrap](https://pythonhosted.org/Flask-Bootstrap/) - Not too much content, but wanted to see the difference and play a little 😉
+* [GitHub API v3](https://developer.github.com/v3/) - Official GitHub API v3
+* [PyGitHub](http://pygithub.readthedocs.io/en/latest/) - Library to use GitHub API v3
 
 ## Author
 
-* **Marta Żaryn** - *Initial work* - [martazaryn](https://github.com/martazaryn)
+* **Marta Żaryn** - *Initial work* - [GitHub](https://github.com/martazaryn) [Twitter](https://twitter.com/martazaryn)
