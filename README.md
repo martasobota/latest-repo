@@ -86,4 +86,4 @@ Voilà! You should see something like picture below, but with current informatio
 
 ## Author
 
-* **Marta Żaryn** - *Initial work* - [GitHub](https://github.com/martazaryn) [Twitter](https://twitter.com/martazaryn)
+* **Marta Żaryn** - *Initial work* - [GitHub](https://github.com/martazaryn), [Twitter](https://twitter.com/martazaryn)
