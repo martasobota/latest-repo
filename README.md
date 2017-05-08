@@ -33,25 +33,25 @@ If you would like to increase API’s raising limit from 60/h to 5000/h, registe
 
 If you created an app, set your environment variables locally. Type in terminal:
 
-‘’’
+```
 export client_id=type_your_client_id_here
-‘’’
+```
 
 then:
 
-‘’’
+```
 export client_secret=type_your_client_secret_here
-‘’’
+```
 
 To check if variables exported properly, enter python and type:
 
-‘’’
+```
 >>> import os
 >>> os.environ[‘client_id’]
 here will appear your client_id
 >>> os.environ[‘client_secret’]
 here will appear your client_secret
-‘’’
+```
 
 
 
