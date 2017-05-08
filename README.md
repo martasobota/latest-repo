@@ -75,13 +75,4 @@ http://127.0.0.1:5000/repo
 
 Voilà! You should see something like picture below, but with current information 🙂
 
-
-
-
-
-
-
-
-
-
-
+![PrintScreen](https://cloud.githubusercontent.com/assets/22544944/25808798/6955172a-340b-11e7-883f-0fd1442f5240.png)
