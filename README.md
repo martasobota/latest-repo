@@ -24,14 +24,14 @@ Enter to your virtual env and type in terminal (note the dot):
 Cd outside the env, where is requirements.txt and install them:
 
 ```
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 If you would like to increase API’s raising limit from 60/h to 5000/h, register OAuth application on GitHub to get your client_id and secret_id. Follow instructions from link below:
 
 [GitHub OAuth](https://github.com/settings/applications/new) - Register a new OAuth application
 
-If you created an app, set your environment variables locally. Type in terminal:
+If you created an app, set your environment variables locally. Type in terminal (Note that, there are no apostrophes):
 
 ```
 export client_id=type_your_client_id_here
@@ -53,7 +53,24 @@ here will appear your client_id
 here will appear your client_secret
 ```
 
+### Installing
 
+When in virtualenv, cd into local-repo folder and type in terminal:
 
-http://stackoverflow.com/questions/14786072/keep-secret-keys-out-with-environment-variables
+```
+python3 latest-repo.py
+```
 
+You will see information:
+
+```
+Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+```
+
+Open your browser. In our app route is set to /repo so in address window paste:
+
+```
+http://127.0.0.1:5000/repo
+```
+
+Voilà! You should see something like picture below, but with current information 🙂
