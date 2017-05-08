@@ -27,21 +27,31 @@ Cd outside the env, where is requirements.txt and install them:
 pip install -r requirements.txt
 ```
 
-If you would like to register OAuth application on GitHub
+If you would like to increase API’s raising limit from 60/h to 5000/h, register OAuth application on GitHub to get your client_id and secret_id. Follow instructions from link below:
 
 [GitHub OAuth](https://github.com/settings/applications/new) - Register a new OAuth application
 
+If you created an app, set your environment variables locally. Type in terminal:
 
+‘’’
+export client_id=type_your_client_id_here
+‘’’
 
-Register new OAuth application on GitHub to get client_id and secret_id: https://github.com/settings/applications/new
+then:
 
+‘’’
+export client_secret=type_your_client_secret_here
+‘’’
 
-Set your environment variables locally:
-export SOME_SECRET_KEY=1c3-cr3am-15-yummy
+To check if variables exported properly, enter python and type:
 
-To access environment variables from one of your settings files:
-import os
-SOME_SECRET_KEY = os.environ["SOME_SECRET_KEY"]
+‘’’
+>>> import os
+>>> os.environ[‘client_id’]
+here will appear your client_id
+>>> os.environ[‘client_secret’]
+here will appear your client_secret
+‘’’
 
 
 
