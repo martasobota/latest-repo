@@ -3,7 +3,7 @@
 
 ## Getting started
 
-These instructions will get you a copy of the project up and running on your local machine. 
+These instructions will get you a copy of the project up and running on your local machine
 
 ### Prerequisites
 
@@ -27,11 +27,11 @@ Cd outside the env, where is requirements.txt and install them:
 pip3 install -r requirements.txt
 ```
 
-If you would like to increase API’s raising limit from 60/h to 5000/h, register OAuth application on GitHub to get your client_id and secret_id. Follow instructions from link below:
+If you would like to increase API’s raising limit from 60/h to 5000/h, register OAuth application on GitHub to get your client_id and client_secret. Follow instructions from link below:
 
 [GitHub OAuth](https://github.com/settings/applications/new) - Register a new OAuth application
 
-If you created an app, set your environment variables locally. Type in terminal (Note that, there are no apostrophes):
+If you created an app, set your environment variables locally. Type in terminal (note that, there are no apostrophes):
 
 ```
 export client_id=type_your_client_id_here
@@ -53,7 +53,7 @@ here will appear your client_id
 here will appear your client_secret
 ```
 
-### Installing
+### Run 
 
 When in virtualenv, cd into local-repo folder and type in terminal:
 
@@ -61,13 +61,13 @@ When in virtualenv, cd into local-repo folder and type in terminal:
 python3 latest-repo.py
 ```
 
-You will see information:
+You will see the information:
 
 ```
 Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 ```
 
-Open your browser. In our app route is set to /repo so in address window paste:
+Open your browser. In our app, route is set to: /repo so in address window paste:
 
 ```
 http://127.0.0.1:5000/repo
