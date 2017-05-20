@@ -50,10 +50,6 @@ Now open python and type:
 >>> client_secret=os.environ[„client_secret”]
 ```
 
-
-SOME_SECRET_KEY = os.environ["SOME_SECRET_KEY"]
-
-
 To check if variables exported properly, enter python in terminal and type:
 
 ```
