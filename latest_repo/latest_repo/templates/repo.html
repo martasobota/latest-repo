@@ -1,0 +1,15 @@
+{% extends "bootstrap/base.html" %}
+{% block title %}{{ name }}{% endblock %}
+{% block styles %}
+	{{super()}}
+	<link rel="stylesheet" href="{{url_for('.static', filename='mystyle.css')}}">
+{% endblock %}
+
+{% block content %}
+  <h2> Recently modified repository of {{ name }} is: </h2>
+  <h2> 👉 {{ repo_name }} 👈</h2>
+  <h2> It was updated {{ updated }}</h2>
+  <h5> {{ limit }} </h5>
+  <h5> {{ reset }} ⏰ </h5>
+{% endblock %}
+
