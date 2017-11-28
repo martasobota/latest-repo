@@ -37,15 +37,14 @@ def latest_repo():
     #gets the latest repo by it's pushed time
     repo_name = max(results.keys(), key=(lambda k: results[k]))
 
-    ############################################################
-    """
-    Between hashes extra code showing information about:
+    '''
+    Extra code showing information about:
     - when repository was updated
     - rate limiting
     - remaining time
-    """
+    '''
 
-    '''gets time of latest pushed_at, which is info that goes to 'updated (...) ago' info 
+    '''Code below gets time of latest pushed_at, which is info that goes to 'updated (...) ago' info 
     (not updated_at, which might be e.g. repo's description edit, which doesn't 
     places the repository on the top of the GitHub page)'''
     updated_time = (results.get(repo_name))
@@ -74,8 +73,6 @@ def latest_repo():
     seconds_left = datetime.fromtimestamp(delta).strftime('%S')
 
     reset = 'Limit will be renewed on: {} of your timezone ({}), it means in {} minutes and {} seconds.'.format(time_left, user_timezone, minutes_left, seconds_left)
-
-    ############################################################
 
     return render_template("repo.html", name=name, repo_name=repo_name, updated=updated, limit=limit, reset=reset)
 
